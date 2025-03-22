@@ -4,7 +4,7 @@ import "api_model.dart";
 class GetResult {
   Future<GetModel?> getResult(String prompt) async {
   const String apiUrl =
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDvK9fR-M-rANIbdTyV7eC4B3hU4jxFZms";
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=YourAPIKey";
   try {
     var response = await http.post(
       Uri.parse(apiUrl),
